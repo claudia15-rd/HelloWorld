@@ -1,0 +1,17 @@
+Index: HelloWorld/src/main/java/com/JavaCraft/HelloWorld/HelloWorldController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HelloWorld/src/main/java/com/JavaCraft/HelloWorld/HelloWorldController.java b/HelloWorld/src/main/java/com/JavaCraft/HelloWorld/HelloWorldController.java
+--- a/HelloWorld/src/main/java/com/JavaCraft/HelloWorld/HelloWorldController.java	
++++ b/HelloWorld/src/main/java/com/JavaCraft/HelloWorld/HelloWorldController.java	(date 1697363427868)
+@@ -6,5 +6,8 @@
+ @RestController
+ public class HelloWorldController {
+     @RequestMapping
++    public String helloWorld(){
++        return "Hello World.....";
++    }
+ 
+ }
