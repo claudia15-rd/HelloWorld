@@ -1,0 +1,4 @@
+com\Producto2\cliente\ClienteNotFoundException.class
+com\Producto2\cliente\ClienteRepositorio.class
+com\Producto2\cliente\ClienteController.class
+com\Producto2\cliente\ClienteServicio.class
